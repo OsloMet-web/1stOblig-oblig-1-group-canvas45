@@ -9,6 +9,10 @@ body{
     margin-right: 50px;
 
 }
+
+img {
+    width: 30%;
+}
 /*class "forward" to change the button style*/
 button.forward{
     border-radius: 10px;
