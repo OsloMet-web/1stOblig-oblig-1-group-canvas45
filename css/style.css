@@ -1,0 +1,47 @@
+/* Sets the background color for the html document */
+html{
+    background-color: rgb(248, 249, 245);
+}
+
+body{
+    font-family: serif;
+    margin-left: 50px;
+}
+/*class "forward" to change the button style*/
+button.forward{
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    width: 100px;
+    height: 40px;
+    border-color: brown;
+    border-style: solid;
+    transition: 0.2s;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative; bottom: 10px;
+    
+}
+
+/* Changes the button's appearance when hovering */
+button.forward:hover{
+    opacity: .4;
+
+}
+/* Changes the buttons appearance when pressing it */
+button.forward:active{
+    opacity: 0.8;
+    background-color: blue;
+    border-color: blueviolet;
+    text-decoration-color: blue;
+}
+/* Makes sure there is no underline under the links */
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* Sources:
+https://www.tutorialspoint.com/css/css_positioning.htm#
+https://www.w3schools.com/cssref/pr_font_weight.php
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=8633s&ab_channel=SuperSimpleDev */
